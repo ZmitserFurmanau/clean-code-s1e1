@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
-  <div>
+<html lang="en">
+
+  <head>
     <title>Todo App</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
@@ -10,11 +11,12 @@
       rel="stylesheet"
       href="../src/style.css"
       media="screen"
-      charset="utf-8"
     />
-  </div>
+  </head>
+
   <body class="page">
-    <div class="header">
+
+    <header class="header">
       <img
         class="header__img"
         src="../assets/eisenhower-matrix.jpg"
@@ -25,9 +27,11 @@
         href="https://goal-life.com/page/method/matrix-eisenhower"
         >Want more details?</a
       >
-    </div>
+    </header>
+
     <main class="main">
-      <div class="add main__add">
+      
+      <section class="add main__add">
         <h3 class="caption add__caption">Add Item</h3>
         <ul class="list add__list">
           <li class="item list__item list__item_new">
@@ -35,8 +39,9 @@
             <button class="item__button item__button_add">Add</button>
           </li>
         </ul>
-      </div>
-      <div class="todo main__todo">
+      </section>
+
+      <section class="todo main__todo">
         <h3 class="caption todo__caption">Todo</h3>
         <ul class="list todo__list">
           <li class="item list__item">
@@ -73,8 +78,9 @@
             </button>
           </li>
         </ul>
-      </div>
-      <div class="completed main__completed">
+      </section>
+      
+      <section class="completed main__completed">
         <h3 class="caption completed__caption">Completed</h3>
         <ul class="list completed__list">
           <li class="item list__item">
@@ -99,7 +105,7 @@
             </button>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
     <script src="../src/app.js"></script>
   </body>
